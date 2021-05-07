@@ -1,0 +1,14 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  text-align: center;
+}
+.max{
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.clear{
+  clear: both;
+}
