@@ -1,0 +1,24 @@
+*{
+  box-sizing: border-box;
+  text-align: center;
+}
+body{
+  margin: 0 auto;
+}
+.max{
+  max-width: 1170px;
+  margin: 0 auto;
+}
+a{
+  text-decoration: none;
+}
+.clear{
+  clear: both;
+}
+.btn{
+}
+.btn div{
+ float: left;
+ padding:  10px 20px;
+ margin:10px 10px;
+}

@@ -1,0 +1,95 @@
+
+@media screen and (max-width: 1190px){
+
+}
+
+@media screen and (max-width: 768px){
+  .login,.touroku{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 100;
+    display: none;
+    font-size: 10px;
+  }
+
+  .login-wrapper,.touroku-wrapper{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    margin-left: -175px;
+    margin-top: -120px;
+    background-color: #e6ecf0;
+    padding: 20px;
+    border-radius: 10px;
+    width: 350px;
+    text-align: center;
+    padding-top: 0;
+  }
+  .login a,.touroku a{
+    padding: 13px;
+    text-decoration: none;
+    }
+
+
+  /* .login-inline p{
+    display: inline-block;
+  } */
+  .login-input{
+    margin-top: 20px;
+  }
+  .login-input input{
+    width: 100%;
+    padding: 5px;
+    margin-top: 10px;
+    font-size: 8px;
+  }
+
+
+  /* .login-inline1{
+    padding-right: 80px;
+  } */
+  .login-login{
+    background-color: rgb(255, 90, 95);
+    color: white;
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    text-align: center;
+  }
+  .login-wrapper span:hover,.touroku-wrapper span:hover{
+    border-bottom: 1px solid  #008489;
+  }
+  .login-wrapper span,.touroku-wrapper span{
+    cursor: pointer;
+  }
+  .login-last,.touroku-last{
+  border-top: 1px solid;
+  padding-top: 3%;
+  }
+
+
+  .touroku{
+    display: block;
+  }
+  .login{
+    display: block;
+  }
+
+  .message{
+    font-size: 15px;
+  }
+
+}
+@media screen and (max-width: 400px){
+  .login-wrapper,.touroku-wrapper{
+    margin-left: -125px;
+    margin-top: -120px;
+    padding: 20px;
+    width: 250px;
+  }
+}
